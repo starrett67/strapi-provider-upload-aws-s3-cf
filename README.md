@@ -11,7 +11,7 @@ In my organization I need to save files in s3 but serve them from cloudfront. We
 module.exports = ({ env }) => ({
   // ...
   upload: {
-    provider: 'aws-s3',
+    provider: 'aws-s3-cf',
     providerOptions: {
       accessKeyId: env('AWS_ACCESS_KEY_ID'),  // not required if your server is running in aws with an assumed role that can access s3
       secretAccessKey: env('AWS_ACCESS_SECRET'), // not required if your server is running in aws with an assumed role that can access s3

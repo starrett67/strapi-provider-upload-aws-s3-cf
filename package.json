@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-aws-s3-cf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An aws s3 provider that will serve files from cloudfront",
   "main": "./lib",
   "scripts": {
@@ -19,14 +19,13 @@
     "s3",
     "strapi"
   ],
-  "author": "Josh Starrett",
+  "author": "Josh Starrett <starrett67@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/starrett67/strapi-provider-upload-aws-s3-cf/issues"
   },
   "homepage": "https://github.com/starrett67/strapi-provider-upload-aws-s3-cf#readme",
   "dependencies": {
-    "aws-sdk": "^2.860.0",
-    "lodash": "^4.17.21"
+    "aws-sdk": "^2.860.0"
   }
 }
