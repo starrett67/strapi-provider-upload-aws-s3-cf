@@ -1,7 +1,7 @@
 # Strapi-Provider-Upload-AWS-S3-CF
 
 ## Description
-This strapi provider is very similar to the aws-s3 provider. However this provider will allow you to specify a base url you want to retrieve images from and also allow you whether or not you want to include a hash in the s3 object key.
+This strapi provider is very similar to the aws-s3 provider. However this provider will allow you to specify a base url you want to retrieve images from and also if you want to include a hash in the s3 object key.
 
 ## Motivation
 In my organization I need to save files in s3 but serve them from cloudfront. We also have our own caching strategy so having the ability to not hash the file is good because we like to overwrite images when we update them.
