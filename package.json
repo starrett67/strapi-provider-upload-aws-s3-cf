@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-aws-s3-cf",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "An aws s3 provider that will serve files from cloudfront",
   "main": "./lib",
   "scripts": {
